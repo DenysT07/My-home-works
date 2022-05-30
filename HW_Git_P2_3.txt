@@ -1,0 +1,38 @@
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер. - git clone https://github.com/DenysT07/XML.git
+ 23. Внутри локального XML создать файл “new.xml”. - touch new.xml
+ 24. Добавить файл под гит. - git add .
+ 25. Закоммитить файл. - git commit -m "add xml file"
+ 26. Отправить файл на внешний GitHub репозиторий. - git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ cat >> new.xml
+<inf>
+<Full_name>Terpylo Denys Alexsandrovich</Full_name>
+<age>25</age>
+<pets>1 cat</pets>
+<expected_salary>500$</expected_salary>
+</inf>
+ 28. Отправить изменения на внешний репозиторий. - git add . ; git commit -m "add information"; git push
+ 29. Создать файл preferences.xml -  touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ cat >> preferences.xml
+<Pref>
+<Favorite movie>Fight club</Favorite movie>
+<Favorite serial>Walking dead</Favorite serial>
+<Favorite food>shaurma</Favorite food>
+<Favorite season>summer</Favorite season>
+<Coutry I`d like to visit>Germany</Coutry I`d like to visit>
+</Pref>
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ cat >> sklls.xml
+ <skl>
+<skills>Git Bash,Git Hub,Postman,trafik snifers,and a lot of ather things!</skils>
+</skl>
+ 32. Сделать коммит в одну строку. git add . ; git commit -m "add two files together"; git push
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML git pull
